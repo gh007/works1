@@ -1,0 +1,182 @@
+@charset "utf-8";
+body {
+	background-color: #8E8E8E;
+	background-image: url(../images/bkgd.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: actor;
+	font-style: normal;
+	font-weight: 400;
+	height: 100%;
+	margin: 0;
+}
+h1 {
+	font-family: alfa-slab-one;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2.3em;
+	text-align: center;
+	line-height: 1em;
+	height: 1em;
+	color: hsla(0,0%,93%,1.00);
+	text-shadow: 2px 3px 3px hsla(120,22%,13%,1.00);
+}
+h2 {
+	font-family: alfa-slab-one;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+footer {
+	font-size: small;
+	text-align: center;
+	clear: both;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 100px;
+	width: 100%;
+	color: #192617;
+	padding-top: 4em;
+	padding-right: 16px;
+	padding-left: 16px;
+	padding-bottom: 0.01em;
+	font-family: Verdana,sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 99.48%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 99.48%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 99.48%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 99.48%);
+}
+
+.assideleft {
+	width: 28%;
+	float: left;
+	margin-right: 1%;
+	margin-left: 5%;
+	margin-top: 30px;
+}
+
+.sectionRight  {
+	width: 55%;
+	float: right;
+	margin-right: 5%;
+	margin-top: 30px;
+	margin-left: 1px;
+	padding-top: 2.5%;
+	padding-right: 2.5%;
+	padding-bottom: 2.5%;
+	padding-left: 2.5%;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.00) 99.48%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.00) 99.48%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.00) 99.48%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.00) 99.48%);
+	border-top-right-radius: 25px;
+}
+header {
+	text-align: center;
+	margin-top: 70px;
+}
+nav  {
+	background-color: hsla(0,0%,91%,1.00);
+}
+.navlist {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+.navlistitem {
+	float: left;
+}
+.navlistitem a {
+	text-decoration: none;
+	display: block;
+	padding-top: 14px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-bottom: 16px;
+	color: hsla(0,1%,50%,1.00);
+}
+.navlistitem a:hover {
+	color: hsla(0,0%,7%,1.00);
+	background-color: hsla(157,24%,47%,1.00);
+}
+.container-fluid .navbar-header .navbar-brand {
+	font-family: alfa-slab-one;
+	font-style: normal;
+	font-weight: 400;
+	color: hsla(185,87%,29%,1.00);
+}
+.formstyle {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 684px){
+.assideleft {
+	width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 30px;
+}
+.sectionRight {
+	width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-top: 34px;
+	margin-left: 5%;
+	margin-bottom: 100px;
+}
+	
+body {
+	background-color: #53644B;
+	background-image: url();
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: actor;
+	font-style: normal;
+	font-weight: 400;
+	height: 100%;
+	margin: 0;
+}
+h1 {
+	font-family: alfa-slab-one;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2em;
+	text-align: center;
+	line-height: 1em;
+	height: 1em;
+}
+header {
+	margin-top: 80px;
+}
+p {
+	font-size: large;
+}
+	
+.container-fluid .navbar-header .navbar-brand {
+	font-family: alfa-slab-one;
+	font-style: normal;
+	font-weight: 400;
+	color: hsla(185,87%,29%,1.00);
+	font-size: 1em;
+}	
+	
+	
+	
+}

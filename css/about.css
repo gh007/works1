@@ -1,0 +1,19 @@
+@charset "utf-8";
+body {
+}
+.sectionRight {
+	margin-top: 399px;
+	padding-bottom: 175px;
+}
+
+
+
+@media (max-width: 684px){
+.sectionRight {
+	margin-top: 199px;
+	padding-bottom: 175px;
+}
+h1 {
+	margin-top: 69px;	
+}
+}
